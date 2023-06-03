@@ -6,14 +6,13 @@ body{
     font-family: Helvetica, sans-serif;
 }
 header{
-    height: 120px;
     padding: auto 20px;
     margin: 25px;
 }
 header div h1{
     text-align: center;
 } 
-a{
+.nav a{
     color: #F8F0E3;
     text-decoration: none;
     border: 1px #F8F0E3 solid;
@@ -21,7 +20,7 @@ a{
     border-radius: 5px;
 
 }
-a:hover{
+.nav a:hover{
     background-color: #F8F0E3;
     color: #4e5180;
 }
@@ -35,11 +34,19 @@ header nav{
     padding: 10px;
 }
 #projects{
-
+margin: 10px;
 }
 
 img{
     max-height: 100%;
     max-width: 100%;
 
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tea-cozy a{
+    color: #F8F0E3;
 }

@@ -76,7 +76,7 @@ header {
 #store-locations {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
     margin: 0 auto;
-    width: 80%;
+    width: 1200px;
     height: 500px;
     padding: 0 10px;
     background-repeat: no-repeat;
@@ -90,14 +90,16 @@ header {
 #location-container {
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
 }
 
 .location {
-    justify-content: space-between;
     margin-left: 3px;
     margin-right: 3px;
     padding: 50px 20px;
     background-color: rgba(0, 0, 0, 0.7);
+
 }
 
 #contact-info {

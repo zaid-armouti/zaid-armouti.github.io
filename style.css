@@ -2,10 +2,13 @@
 body{
     background-color: #4e5180;
     color: #F8F0E3;
+    margin: 25px;
+    font-family: Helvetica, sans-serif;
 }
 header{
     height: 120px;
     padding: auto 20px;
+    margin: 25px;
 }
 header div h1{
     text-align: center;
@@ -26,4 +29,17 @@ header nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+#body{
+    margin: 10px;
+    padding: 10px;
+}
+#projects{
+
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+
 }

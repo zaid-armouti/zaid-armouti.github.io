@@ -1,1 +1,29 @@
 /* Style sheet for (Protfolio: Zaid Armouti) */
+body{
+    background-color: #4e5180;
+    color: #F8F0E3;
+}
+header{
+    height: 120px;
+    padding: auto 20px;
+}
+header div h1{
+    text-align: center;
+} 
+a{
+    color: #F8F0E3;
+    text-decoration: none;
+    border: 1px #F8F0E3 solid;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+a:hover{
+    background-color: #F8F0E3;
+    color: #4e5180;
+}
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
